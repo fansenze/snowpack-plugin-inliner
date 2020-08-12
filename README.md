@@ -29,9 +29,9 @@ module.exports = {
     ["snowpack-plugin-url-loader", {
       "exts": ["jpg", "png"], // only "jpg" & "png" will be inlined with
       "limit": 66666, // set maximum of file size: 66666 bytes
-    }]
-  ]
-}
+    }],
+  ],
+};
 ```
 
 ## Options
