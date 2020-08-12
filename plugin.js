@@ -90,7 +90,7 @@ module.exports = function plugin(snowpackConfig, options) {
         { limit, bufferEncoding: encoding },
       );
       if (uri) {
-        console.log('[Url-Loader] Inlined File: ', filePath);
+        console.log(`[${pkg.name}] Inlined File: ${filePath}`);
         return {
           '.js': `export default "${uri}";`,
         };
