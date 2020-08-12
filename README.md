@@ -1,11 +1,11 @@
-# snowpack-plugin-url-loader
+# snowpack-plugin-inliner
 A plugin for snowpack which transforms files into base64 URIs.
 
 ## Usage
 
 ### Install
 ```bash
-npm install --save-dev snowpack-plugin-url-loader
+npm install --save-dev snowpack-plugin-inliner
 ```
 
 ### Configuration
@@ -16,7 +16,7 @@ add this plugin to your Snowpack config:
 ```json
 {
   "plugins": [
-    ["snowpack-plugin-url-loader"]
+    ["snowpack-plugin-inliner"]
   ]
 }
 ```
@@ -26,7 +26,7 @@ add this plugin to your Snowpack config:
 ```javascript
 module.exports = {
   "plugins": [
-    ["snowpack-plugin-url-loader", {
+    ["snowpack-plugin-inliner", {
       "exts": ["jpg", "png"], // only "jpg" & "png" will be inlined with
       "limit": 66666, // set maximum of file size: 66666 bytes
     }],
