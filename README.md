@@ -23,7 +23,7 @@ add this plugin to your Snowpack config:
 
 #### Custom
 **snowpack.config.json**
-```json
+```javascript
 {
   "plugins": [
     ["snowpack-plugin-url-loader", {
