@@ -38,8 +38,8 @@ module.exports = {
 
 |             Name              |            Type             |                 Default                    | Description                                                                         |
 | :---------------------------: | :-------------------------: | :----------------------------------------: | :---------------------------------------------------------------------------------- |
-|     **[`exts`](#limit)**      |       `Array<string>`       |       `["jpg","jpeg","png","svg"]`         | Specifying the extensions of a file will be inlined with.                           |
-|     **[`limit`](#limit)**     | `boolean | number | string` |                 `10240`                    | Specifying the maximum size of a file in bytes.                                     |
-|  **[`encoding`](#encoding)**  |          `string`           |                 `base64`                   | Specify the encoding which the file will be inlined with.                           |
+|          **`exts`**           |       `Array<string>`       |       `["jpg","jpeg","png","svg"]`         | Specifying the extensions of a file will be inlined with.                           |
+|          **`limit`**          | `boolean | number | string` |                 `10240`                    | Specifying the maximum size of a file in bytes.                                     |
+|          **`encoding`**       |          `string`           |                 `base64`                   | Specify the encoding which the file will be inlined with.                           |
 
 
