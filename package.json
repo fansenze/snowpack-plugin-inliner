@@ -1,0 +1,28 @@
+{
+  "name": "snowpack-plugin-url-loader",
+  "version": "1.0.0",
+  "description": "url loader for snowpack, use base64 encode file",
+  "main": "plugin.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fansenze/snowpack-plugin-url-loader.git"
+  },
+  "keywords": [
+    "snowpack",
+    "image",
+    "url",
+    "url-loader",
+    "base64",
+    "snowpack-plugin"
+  ],
+  "author": "senze.fan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fansenze/snowpack-plugin-url-loader/issues"
+  },
+  "homepage": "https://github.com/fansenze/snowpack-plugin-url-loader#readme",
+  "dependencies": {
+    "mime": "^2.4.6"
+  }
+}
