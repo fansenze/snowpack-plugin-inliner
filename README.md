@@ -1,5 +1,5 @@
 # snowpack-plugin-url-loader
-url loader for snowpack, use base64 encode file
+A plugin for snowpack which transforms files into base64 URIs.
 
 ## Usage
 
