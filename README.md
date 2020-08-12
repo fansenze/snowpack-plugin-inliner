@@ -22,9 +22,9 @@ add this plugin to your Snowpack config:
 ```
 
 #### Custom
-**snowpack.config.json**
+**snowpack.config.js**
 ```javascript
-{
+module.exports = {
   "plugins": [
     ["snowpack-plugin-url-loader", {
       "exts": ["jpg", "png"], // only "jpg" & "png" will be inlined with
