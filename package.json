@@ -1,6 +1,6 @@
 {
   "name": "snowpack-plugin-inliner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "url loader for snowpack, use base64 encode file",
   "main": "plugin.js",
   "scripts": {},
@@ -12,7 +12,7 @@
     "snowpack",
     "image",
     "url",
-    "url-loader",
+    "inliner",
     "base64",
     "snowpack-plugin"
   ],
