@@ -20,7 +20,7 @@ async function encode(file, name, { limit = defaultLimit, bufferEncoding = defau
 
   const mimetype = mime.getType(name);
   const buffer = Buffer.from(file, encoding);
-  return `data:${mimetype || ''};base64,${buffer.toString(bufferEncoding)}`;
+  return `data:${mimetype || ''};${bufferEncoding},${buffer.toString(bufferEncoding)}`;
 }
 
 /**
