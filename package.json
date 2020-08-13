@@ -1,6 +1,6 @@
 {
   "name": "snowpack-plugin-inliner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A plugin for snowpack which transforms files into base64 URIs",
   "main": "plugin.js",
   "scripts": {},
