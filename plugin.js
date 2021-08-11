@@ -101,15 +101,16 @@ module.exports = function plugin(snowpackConfig, options) {
 
         // replace base proxy url
         for (const [starts, dir] of Object.entries(snowpackConfig.mount)) {
+          const url = typeof dir === "string" ? dir : dir.url;
           if (rootpath.startsWith(starts)) {
-            webUri = rootpath.replace(starts, dir.endsWith(sep) ? dir : `${dir}${sep}`);
+            webUri = rootpath.replace(starts, url.endsWith(sep) ? url : `${url}${sep}`);
             break;
           }
         }
 
         if (!isDev) {
           // copy file while build with snowpack
-          const { out } = snowpackConfig.devOptions;
+          const { out } = snowpackConfig.buildOptions;
           const dest = path.posix.join(out, webUri);
           fs.copyFile(filePath, dest);
         }
